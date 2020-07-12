@@ -50,5 +50,7 @@ cse:
     akskCustomerCipher: default
   handler:
     chain:
+      Consumer:
+        default: auth-consumer
       Provider:
-        default: tracing-provider
+        default: auth-provider

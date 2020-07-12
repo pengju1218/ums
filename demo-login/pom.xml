@@ -22,6 +22,13 @@
 
 	<dependencyManagement>
 		<dependencies>
+			  <dependency>
+				<groupId>com.huawei.paas.cse</groupId>
+				<artifactId>cse-dependency</artifactId>
+				<version>2.3.58</version>
+				<type>pom</type>
+				<scope>import</scope>
+			  </dependency>
 			<dependency>
 				<groupId>org.apache.servicecomb</groupId>
 				<artifactId>java-chassis-dependencies</artifactId>
@@ -40,6 +47,10 @@
 	</dependencyManagement>
 
 	<dependencies>
+		<dependency> 
+			<groupId>org.apache.servicecomb</groupId> 
+			<artifactId>handler-publickey-auth</artifactId> 
+		</dependency>
 		<dependency>
 			<groupId>redis.clients</groupId>
 			<artifactId>jedis</artifactId>

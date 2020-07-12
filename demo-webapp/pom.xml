@@ -25,6 +25,10 @@
   </dependencyManagement>
 
   <dependencies>
+	  <dependency> 
+		<groupId>org.apache.servicecomb</groupId> 
+		<artifactId>handler-publickey-auth</artifactId> 
+	  </dependency>
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter</artifactId>
